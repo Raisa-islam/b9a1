@@ -6,8 +6,8 @@
 }
 header {
     margin: 50px 140px 0px 140px;
-    width: 1320px;
-    height: 600px;
+    max-width: 1320px;
+    max-height: 600px;
     border-radius: 16px;
     justify-content: center;
     align-items: center;
