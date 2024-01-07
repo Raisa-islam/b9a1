@@ -74,3 +74,59 @@ header {
     width: 802.9px;
     height: 500px;
 }
+
+/*1st section done*/
+
+.welcome-module {
+    background: linear-gradient(90deg, hsl(260, 79%, 4%), hsla(260, 79%, 4%, 0)), url('../images/Vectorrr.png');
+   border-radius: 16px ;
+    font-family: Merriweather;
+    max-width: 1320px;
+    max-height: 600px;
+    margin: 70px 140px 0px 140px;
+    display: flex;
+    text-align: left;
+    padding-left: 126px;
+}
+
+.welcome-module img {
+    max-width: 320px;
+    max-height: 465px;
+    padding-top:67px ;
+    padding-bottom: 68px;
+    padding-right: 138px;
+}
+
+.welcome-text {
+    padding-top: 126px;
+}
+.welcome-module h1 {
+    color: #FFFFFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+
+.welcome-module .normal-text {
+    margin-top: 24px;
+    max-width: 697px;;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.welcome-module .btn { 
+    margin-top: 48px;
+    padding-left: 32px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.welcome-module .btn a {
+    text-decoration: none;
+    color: #FFF;
+    
+}
