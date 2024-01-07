@@ -15,7 +15,7 @@ header {
 }
 .banner {
     align-items: center;
-    max-width: fit-content;
+    width: 632px;
     padding-left: 344px;
     padding-top: 177px;
     padding-right: 344px;
@@ -24,7 +24,6 @@ header {
 
 .banner #sub-title {
     color: #fff;
-    max-height: fit-content;
     text-align: center;
     font-family: Merriweather;
     font-size: 32px;
