@@ -11,7 +11,7 @@ header {
     border-radius: 16px;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(45deg, hsla(260, 79%, 4%, 0.25), hsla(260, 79%, 4%, 0.65)), url('../images/Banner\ Image.png');
+    background: linear-gradient(180deg, hsla(260, 79%, 4%, 0.25), hsla(260, 79%, 4%, 0.65)), url('../images/Banner\ Image.png');
 }
 .banner {
     align-items: center;
