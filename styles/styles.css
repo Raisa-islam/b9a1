@@ -23,10 +23,6 @@ header {
     padding-right: 26%;
     padding-top: 177px;
     padding-bottom: 177px;
-    /*padding-left: 344px;
-    
-    padding-right: 344px;
-    */
 }
 
 .banner #sub-title {
@@ -36,7 +32,7 @@ header {
     font-family: Merriweather;
     font-size: 32px;
     font-weight: 400;
-   /* padding: 177px 530px 383px 531px;*/
+   
 
 }
 
@@ -349,20 +345,6 @@ header {
     line-height: 32px; /* 160% */
 }
 
-.sale-fifty .image .girl-pic{
-    background: red;
-    /*background-image: url(../images/Rectangle\ 1.png);
-    background-position: right top;
-    background-repeat: no-repeat;*/
-}
-
-.sale-fifty .image .red-rec {
-    background: seagreen;
-    /*background-image: url(../images/Rectangle\ 2.png);
-    background-repeat: no-repeat;*/
-    
-}
-
 /* 50% image discount part*/
 
 
@@ -376,6 +358,7 @@ header {
     background: #FFF;
     margin-top: auto;
     margin-bottom: auto;
+    
 }
 .image-part {
     border-radius: 50%;
@@ -537,3 +520,14 @@ hr {
     color: #FFF;
     
 }
+
+
+/*  image handling*/
+
+
+
+
+
+
+
+
