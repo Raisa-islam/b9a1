@@ -366,7 +366,90 @@ header {
 /* 50% image discount part*/
 
 
+/* 3part section start golla image*/
+.offer-part {
+    display: flex;
+    overflow: hidden;
+    padding-bottom: 120px;
+}
+.comming-soon {
+    background: #FFF;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.image-part {
+    border-radius: 50%;
+    border: 15px solid #F00;
+    width: 460px;
+    height: 460px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.image-part img {
+    width: 365px;
+    height: 365px;
+    
+}
+.new-year-part {
+    max-width: 276px;
+    margin-top: auto;
+    padding-left: 20px;
+    
+}
+
+.new-year-part h1 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.new-year-part span {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.new-year-part img {
+    margin-top: 30px;
+    width: 140px;
+    height: 140px;
+    margin-bottom: 10px;
+
+}
+
+.comming-soon #red-text {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.comming-soon h1 {
+    color: #070211;
+    padding-top: 20px;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.comming-soon #under-subject {
+    padding-top: 20px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    max-width: 393px;;
+}
 /* footer first part*/
 
 footer {
