@@ -145,6 +145,123 @@ header {
 
 /* section 2 done*/
 
+/*item show section*/
+.text-portion {
+    max-width: 75%;
+}
+
+.text-portion h3{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+   
+}
+
+.text-portion h1 {
+    padding-top: 10px;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+
+.text-portion .t {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+.card-portion {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 15px;
+    row-gap: 15px;
+    padding-top: 20px;
+}
+
+.card-portion .item-box:hover {
+    cursor: pointer;
+}
+.item-box img {
+    width: 384px;
+    height: 400px;
+}
+/*subscription part*/
+
+.container .align-news {
+    
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    height: 616px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.align-news img{
+    width: 150px;
+    height: 150px;
+}
+
+.align-news .text h1 {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.align-news .text-content {
+    padding-top: 20px;
+    max-width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+}
+
+.align-news .subscribe {
+    margin-top: 30px;
+    width: 648px;
+    height: 72px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.subscribe #email{
+    height: 100%;
+    width: 99.675%;
+    border: none;
+    border-radius: 50px 0px 0px 50px;
+}
+
+#email::placeholder {
+    color: rgba(7, 2, 17, 0.30);
+    padding-left: 50px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+.subscribe #sub-btn {
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    width: 32.4%;
+    height: 100%;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+}
+/*footer*/
+
 .address {
     width: 82%;
     height: 482px;
@@ -168,6 +285,9 @@ header {
     padding-bottom: 50px;
 
 }
+.venue .venue-text {
+    text-align: center;
+}
 
 .venue .stile{
     color: #F00000;
@@ -176,7 +296,7 @@ header {
 }
 
 #join-btn {
-    padding-left: 40%;
+    padding-left: 44%;
 }
 #join-btn button {
     color: #FFF;
