@@ -523,8 +523,45 @@ hr {
 
 
 /*  image handling*/
+#multiple-image {
 
+}
 
+.section-one {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.section-one #fifty {
+    width: 206.841px;
+    height: 206.841px;
+    z-index: 3;
+    margin-right: -102px;
+}
+
+.section-one #girl {
+    width: 429px;
+    height: 433px;
+}
+
+.section-two {
+    height: 229px;
+    background: #F00000;
+    border-radius: 16px 0px 16px 16px;
+}
+
+.box {
+   position: relative;
+}
+
+.box #gift-box {
+    position: absolute;
+    top: -556px;
+    right: 488px;
+    width: 600px;
+    height: auto;
+}
 
 
 
