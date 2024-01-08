@@ -13,6 +13,10 @@ header {
     align-items: center;
     background: linear-gradient(180deg, hsla(260, 79%, 4%, 0.25), hsla(260, 79%, 4%, 0.65)), url('../images/Banner\ Image.png');
 }
+
+.container {
+    margin: 4% 8.8% 0% 8.8%;
+}
 .banner {
     width: 632px;
     padding-left: 26%;
@@ -191,4 +195,142 @@ header {
 .sale-fifty div {
     text-align: center;
     margin: 4% 8.8% 0% 8.8%;
+}
+
+.sale-fifty #what {
+    color: #070211;
+    max-width: 263px;
+    padding-left: 30%;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.sale-fifty #sale-line {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+#sale-line #col-red {
+    color: #F00;
+}
+
+.sale-fifty #sale-text {
+    color: rgba(7, 2, 17, 0.60);
+    text-align:center;
+    padding-left: 10%;
+    padding-right: 10%;
+    max-width: 1068px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px; /* 160% */
+}
+
+.sale-fifty .image .girl-pic{
+    background: red;
+    /*background-image: url(../images/Rectangle\ 1.png);
+    background-position: right top;
+    background-repeat: no-repeat;*/
+}
+
+.sale-fifty .image .red-rec {
+    background: seagreen;
+    /*background-image: url(../images/Rectangle\ 2.png);
+    background-repeat: no-repeat;*/
+    
+}
+
+/* 50% image discount part*/
+
+
+
+/* footer first part*/
+
+footer {
+    background: #070211;
+    width: 100%;
+    height: 609px;
+}
+.first-part {
+    text-align: left;
+    padding-top: 120px;
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.left-box {
+    color: #FFF;
+    width: 50%;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    align-items: center;
+    line-height: 40px; /* 166.667% */
+}
+
+.right-box {
+    color: #FFF;
+    font-family: Inter;
+    width: 50%;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+
+.first-part .right-box img{
+    width: 24px;
+    height: 24px;
+    
+}
+
+#phn-icon, #address-icon {
+    display: flex;
+}
+#phn-no, #address {
+    padding-left: 10px;
+}
+
+.right-box img {
+    padding-top: 7px;
+}
+
+.second-part {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.second-part img{
+    width: 64px;
+    height: 64px;
+}
+
+hr {
+    color: hsla(0, 0%, 100%, 0.15);      
+}
+.third-part {
+    padding-top: 30px;
+    display: flex;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.link {
+    text-align: end;
+    
+}
+
+.link a{
+    text-decoration: none;
+    color: #FFF;
+    
 }
